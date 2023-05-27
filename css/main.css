@@ -1,0 +1,364 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* open-sans-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/open-sans-v35-latin-regular.woff2") format("woff2"); 
+}
+@font-face {
+    font-display: swap;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/open-sans-v35-latin-500.woff2") format("woff2"); 
+}
+@font-face {
+    font-display: swap; 
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/open-sans-v35-latin-600.woff2") format("woff2"); 
+}
+@font-face {
+    font-display: swap; 
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/open-sans-v35-latin-700.woff2") format("woff2");
+}
+@font-face {
+    font-display: swap; 
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/OpenSansCondensed-Regular.woff") format("woff2"); 
+}
+@font-face {
+    font-display: swap; 
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/OpenSansCondensed-Bold.woff2") format("woff2");
+}
+html {
+    height: 100%;
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;   
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.site-header {
+    padding: 24px 0;
+}
+.site-header__header-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.site-header__logo-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 16px;
+    -moz-column-gap: 16px;
+    column-gap: 16px;
+    text-decoration: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #222;
+}
+.site-header__logo-link:hover {
+    color: #de2e54;
+}
+.site-header__logo-link:active {
+    color: #de2e54;
+    opacity: 0.6;
+}
+.site-header__logop-img {
+    display: block;
+}
+.site-navigation__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 32px;
+    -moz-column-gap: 32px;
+    column-gap: 32px;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.site-navigation__link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    color: #222;
+}
+.site-navigation__link:hover {
+    color: #de2e54;
+}
+.site-navigation__link:active {
+    color: #de2e54;
+    opacity: 0.6;
+}
+.site-header__link {
+    display: block;
+    width: 189px;
+    text-align: center;
+    padding: 12px;
+    background-color:#de2e54;
+    border: 2px solid transparent;
+    color: #fff;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Open Sans Condensed";
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    color: #fff;
+}  
+.site-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+.hero {
+    background-color: #0eb4c1;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: url("../images/hero-bg.png");
+    background-size: 423px 504px;
+    background-position-x:calc(50% + 330px);
+    background-repeat: no-repeat;
+}
+.site-main__div {
+    width: 500px;
+}
+.site-main__title {
+    margin: 0;
+    margin-bottom: 16px;
+    font-family: "Open Sans Condensed";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    color: #fff;
+}
+.site-main__desc {
+    margin: 0;
+    margin-bottom: 36px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+}
+.services {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.services__title {
+    margin: 0;
+    margin-bottom: 56px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    color: #000;
+}
+.services__list {
+    width: 864px;
+    margin: 0 auto;
+    padding-left: 0;
+    list-style: none;
+    font-family: "Open Sans Condensed";
+    
+}
+.list__item:not(:last-child) {
+    margin-bottom: 80px;    
+}
+.list__item:last-child {
+    margin-bottom: 60px;
+}
+.list__title {
+    margin-top: 25px;
+    margin-bottom: 24px;
+}
+.list__desc {
+    margin: 0;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #444;    
+}
+.list__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 64px;
+    -moz-column-gap: 64px;
+    column-gap: 64px;
+}
+.site-header__link--last {
+    display: block;
+    margin: 0 auto;
+}
+.site-article {
+    padding-top: 64px;
+    padding-bottom: 76px;
+    text-align: center;
+    background-color: #0eb4c1;
+}
+.site-article__title {
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: "Open Sans Condensed";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    color: #fff;
+}
+.site-article__links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.site-article__link {
+    width: 194px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    padding: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Open Sans Condensed";
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 120%;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.site-article__link:last-child {
+    width: 214px;
+}
+.site-article__link:hover {
+    background-color:#de2e54;
+    border: 2px solid transparent;
+}
+.site-article__link:active {
+    background-color:#de2e54;
+    border: 2px solid transparent;
+    opacity: 0.6;
+}
+.site-footer {
+    
+    background-color: #222;
+}
+.site-footer__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.site-footer__link {
+    color: #fff;
+}
+.site-footer__logo-img {
+    display: block;
+}
+.site-header__link--change-link:hover {
+    color: #de2e54;
+    background-color: #fff;
+    border:2px solid #de2e54 ;
+}
+.site-header__link--change-link:active {
+    color: #fff;
+    background-color: #de2e54;
+    border:2px solid #de2e54 ;
+    opacity: 0.6;
+}
+.site-header__link--hero:active {
+    opacity:0.6;
+}
+.site-footer__logo-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 16px;
+    -moz-column-gap: 16px;
+    column-gap: 16px;
+    text-decoration: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #fff;
+}
+.site-footer__logo-link:hover {
+    color: #de2e54;
+}
+.site-footer__logo-link:active {
+    color: #de2e54;
+    opacity: 0.6;
+}
