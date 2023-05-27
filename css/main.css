@@ -336,6 +336,9 @@ body {
     border:2px solid #de2e54 ;
     opacity: 0.6;
 }
+.site-header__link--hero:hover {
+    background-color: #de2e54cc;
+}
 .site-header__link--hero:active {
     opacity:0.6;
 }
